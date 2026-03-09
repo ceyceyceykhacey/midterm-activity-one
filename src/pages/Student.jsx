@@ -1,10 +1,8 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 import StudentList from "../components/StudentList.jsx";
 
 
 function Students() {
-
-  const [students, setStudents] = useState([]);
 
   const studentData = [
     { id: 1, name: "Hans Paloga", course: "BSCS" },
