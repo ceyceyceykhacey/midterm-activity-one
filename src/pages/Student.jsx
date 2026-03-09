@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import StudentList from "../components/StudentList.jsx";
 
 
 function Students() {
@@ -24,7 +25,7 @@ function Students() {
 
   return (
     <div className="page">
-      <h2>Student List</h2>
+      <h2>Student Lists</h2>
 
       {students.map((student) => (
         <StudentList key={student.id} student={student} />
